@@ -1,5 +1,16 @@
 // ==== Challenge 1: Write your own closure ====
 // Write a simple closure of your own creation.  Keep it simple!
+let village = () => {
+  let leader = 'Jim'
+  console.log(`I am ${leader} and I am the leader of this village.`);
+  let hello = () => {
+    let villager = 'Tim'
+    console.log(`Hey ${leader}, my name is ${villager} and I am new here.`)
+  }
+  hello();
+}
+
+village()
 
 
 /* STRETCH PROBLEMS, Do not attempt until you have completed all previous tasks for today's project files */
